@@ -1,0 +1,22 @@
+Funciones Claves:
+    sort (algorithm)
+    lower_bound, upper_bound, equal_range (algorithm)
+    find (algorithm)
+    max_element, min_element (algorithm)
+
+DEBUGGING e INCLUDE LIBRARY:
+    #include <bits/stdc++.h>
+    using namespace std;
+
+    #define DEBUG 1 // change this to 0 to disable DEBUG mode
+    #if DEBUG == 1
+    #define DBG(x) do {cerr << #x << ": " << x << endl; } while (0)
+    #else
+    #define DBG(x)
+    #endif
+
+PRINTING:
+-Usar printf y scanf
+-Usar cin y cout con:
+    ios::sync_with_stdio(0);
+    cin.tie(nullptr);
